@@ -52,7 +52,8 @@ export async function GET(req: Request) {
         name: true,
         phone: true,
         facebook: true,
-        instagram: true
+        instagram: true,
+        photo: true
       },
     });
 
