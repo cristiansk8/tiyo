@@ -1,4 +1,3 @@
-import { QrCode } from "lucide-react"
 import Image from "next/image"
 import SigninButton from "./auth/SigninButton"
 
