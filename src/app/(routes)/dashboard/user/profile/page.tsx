@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { useSession } from "next-auth/react";
+import CategoryToggleList from "./categoriesList";
 
 export default function ProfilePage() {
   const { data: session, status } = useSession();
@@ -184,6 +185,9 @@ export default function ProfilePage() {
           </button>
         </div>
       </form>
+      <div className="p-4 max-w-6xl mx-auto">
+      <CategoryToggleList />
+      </div>
     </div>
   );
 }
