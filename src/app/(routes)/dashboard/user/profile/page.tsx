@@ -186,6 +186,11 @@ export default function ProfilePage() {
         </div>
       </form>
       <div className="p-4 max-w-6xl mx-auto">
+      <div className="border-b border-gray-200 pb-4">
+            <h2 className="text-2xl font-bold text-blue-600 tracking-tight">
+              Ajusta lo que quieres vender
+            </h2>
+          </div>
       <CategoryToggleList />
       </div>
     </div>
